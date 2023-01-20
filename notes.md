@@ -26,3 +26,9 @@
 2.  file/files automatically changed to orange color (That means you made some changes in your file/files)
 3.  hen in command prompt type -> " git add . " -> git<space>add<space>dot and then press enter.
 4.  Then in command prompt type -> git commit -m "Your msg" git<space>commit<space>-m<space>"inside double quotes type your msg" then press enter.
+5.  File/Files color changed into white -> means files are updated in git.
+
+### Again edit your code
+
+1.  Edit what ever you want add, remove, edit Git saves every action of your edit.
+2.  And commit as mention above.
