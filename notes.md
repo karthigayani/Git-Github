@@ -45,3 +45,12 @@
 - Green line -> Indicates "New line added".
 
 ### How to get the full history of your commits
+
+- " git log " -> git<space>log -> to get the full history of your commits.
+- Note : Read your history in reverse order. ie., from bottom to top.
+
+1. How to see the changes made in commit ?
+
+- " git diff 89a06ffce8966e8899000eb95b8422e9987ea631 44c0acd95ee632d47d5df425d41d48fd28c8cbda " -> git<space>diff<space>old commit<space>new commit and then press enter.
+
+### 4. Graphical user interface
