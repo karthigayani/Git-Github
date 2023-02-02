@@ -53,4 +53,12 @@
 
 - " git diff 89a06ffce8966e8899000eb95b8422e9987ea631 44c0acd95ee632d47d5df425d41d48fd28c8cbda " -> git<space>diff<space>old commit<space>new commit and then press enter.
 
-### 4. Graphical user interface
+### 4. Graphical user interface with out using comment prompt with the help of vs code tool
+
+1. add & commit using VS code tool.
+
+- VS code -> File Explorer -> Source code -> (M-Indicates modified) (Instead of using git add .) -> point the curser on changes -> You can see "+" symbol -> files are changed to staged changes ->(Instead of using git commit -m "your msg") In the message type your msg -> and then press on Tick button.
+
+2. Finding the commit history using VS code toll.
+
+- VS code -> File Explorer -> (at the bottom) -> Time line -> It opens a window -> and list all the commits of the file -> click on the commits to see the changes.
