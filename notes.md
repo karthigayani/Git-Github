@@ -14,11 +14,18 @@
 
 - Google -> eachonetechone.co.in -> enter the form -> choose the subject -> you will get email -> click on the link in email -> it ask interview questions -> answer it and press submit -> course completed certificate generated -> you can share it in linkedin.
 
-2. How to add files to git ?
+2. How to make the files comes under version control system ?
 
-- " git add . " -> git<space>add<space>dot
+- " git init " -> git<space>init
+- The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.
+- After initializing create a file, it shows green color. means it is going to be tracked.
+
+3. How to add files to git ?
+
+- " git add . " -> git<space>add<space>dot -> dot means you are adding all the files to git.
 - files automatically changed to green color
 - Then in command prompt type -> git commit -m "Your msg" git<space>commit<space>-m<space>"inside double quotes type your msg" then press enter.
+- git commit -m "msg" -> This command represent the version/checkpoint of the project. You can make "n" number of version based on changes.
 
 ### 3. Continuous work flow in git
 
@@ -31,4 +38,10 @@
 ### Again edit your code
 
 1.  Edit what ever you want add, remove, edit Git saves every action of your edit.
-2.  And commit as mention above.
+2.  Add & commit as mention above.
+
+- Blue line -> Indicates "changes made already commited line".
+- No line -> Indicates "There is no changes in the line".
+- Green line -> Indicates "New line added".
+
+### How to get the full history of your commits
