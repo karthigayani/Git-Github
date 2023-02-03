@@ -62,3 +62,22 @@
 2. Finding the commit history using VS code toll.
 
 - VS code -> File Explorer -> (at the bottom) -> Time line -> It opens a window -> and list all the commits of the file -> click on the commits to see the changes.
+
+### 5. Git vs Github
+
+- Git -> Local Storage (Local System) You can Use it only in the same system.
+- Github -> Cloud Storage (Server) You can Use it anytime anywhere.
+
+1. How to push into Github ?
+
+- Sign up if you don't have account.
+- Sign in -> Right Hand Side You can see "+" Symbol behind your profile -> Click on it -> select New repository -> Name the repository -> Select Private or Public as you want -> click on Create Repository.
+- Now you can see more options like
+  i) Create a new file
+  ii) Upload an existing file
+  iii) …or push an existing repository from the command line
+  - and so on....
+- We always go for 2nd and 3rd option.
+
+2. Upload an existing file -> You can Drag or choose your file from your system.
+3. Or You can push from command line step by step in your commant prompt
