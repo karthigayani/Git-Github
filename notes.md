@@ -81,3 +81,26 @@
 
 2. Upload an existing file -> You can Drag or choose your file from your system.
 3. Or You can push from command line step by step in your commant prompt
+   Steps:
+   - git<space>add<space>dot (Press Enter) -> git<space>commit<space>-m<space>"Your msg"(Press Enter) -> copy paste the first command line from your repository (Press Enter) -> copy paste the Second command line from your repository (Press Enter) -> copy paste the Third command line from your repository (Press Enter)
+   - Your files are uploaded and the github shows every commits of your file.
+   - You can click on the commits and click on code symbol "<>" to see the changes made.
+
+### 6. Github Desktop
+
+- Github Desktop Tool -> Used to sync local system with github.
+- Google search -> Github desktop -> open first link -> download software based on your OS -> You get a tool -> login with your github account -> Open git init folder from local system through Github desktop tool
+
+### Opening git init folder from local system through Github desktop tool
+
+- Open Github desktop tool -> (Select) Add an Existing Repository -> choose the path of the folder -> (Select open ) click on Add repository -> your Folder get opened in desktop tool -> You can click on fetch origin option to fetch the changes -> Under current repository -> You can see history -> Click on history -> It shows all the commits of the folder.
+
+### How to add files and commit in github desktop tool
+
+- Made changes in your files in the VS code
+- You can see the tick mark in the changes under Current Repository in your github desktop tool.
+- You can also select Which file changes you want to commit.
+- Also at the left bottom their is a summary box. Enter your Msg and click on Commit to main.
+- In this step Your commits are saved as version in your local system.
+- Once Your commits are completed You can see push to origin option behind current branch. Click on it. Now your files are updated in github.
+- Now the push to orgin option changed into fetch orgin.
