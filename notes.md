@@ -159,7 +159,7 @@ Open Desktop tool -> at the top menu bar You can see "Branch button" -> Click on
 - now go to github desktop tool -> under current branch select "main" -> click on "fetch orgin" -> after fetching it shows pull orgin -> Then click on "Pull origin" -> Now the merged branches(Pull requested brances) are saved in local system too.
 - Now go to your VS code You can see the files/changes are merged in main project.
 
-### What is merge conflict ?
+### 10. What is merge conflict ?
 
 - Merge conflict occurs in team project.
 - when two or more person made the changes in same file, same line. Why because while merging github get confused which one to store. Hence Merge conflict taking place.
@@ -183,7 +183,9 @@ Open Desktop tool -> at the top menu bar You can see "Branch button" -> Click on
 1.  github
 2.  github desktop tool (Best way)
 
-- Open desktop tool -> Select "Main" in current branch -> at the history behind changes, select which branch you want to merge -> It shows error "Their will be .... conflicted line when merging" at the left bottom of the page -> Select "merge into admin" -> It shows pop-up menu (with msg) -> click open in VS code option -> Vs code shows the differences and also options like "Accept Current Change | Accept Incoming Change | Accept Both Changes | Compare Changes" -> Select which one you want -> and Save it (ctrl + S)
+- Open desktop tool -> Select "Main" in current branch -> at the history behind changes, select which branch you want to merge (In the history)-> It shows error "Their will be .... conflicted line when merging" at the left bottom of the page -> Select "merge into admin" -> It shows pop-up menu (with msg) -> click open in VS code option -> Vs code shows the differences and also options like "Accept Current Change | Accept Incoming Change | Accept Both Changes | Compare Changes" -> Select which one you want -> and Save it (ctrl + S)
 - Then go to desktop tool -> the pop-up shows no conflicts remaining with green tick -> Now click on "Commit Merge".
 - Now you can push the branch 2 to the main by clicking on "Push to Origin".
 - Open github -> click on Pull request button -> check whether the Pull request solved or not.
+
+### What is Git ignore ?
