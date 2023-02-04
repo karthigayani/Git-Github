@@ -16,6 +16,7 @@
 
 2. How to make the files comes under version control system ?
 
+- create an empty folder in desktop -> open vs code -> File -> Open folder -> terminal -> " git<space>init".
 - " git init " -> git<space>init
 - The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.
 - After initializing create a file, it shows green color. means it is going to be tracked.
