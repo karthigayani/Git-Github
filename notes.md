@@ -32,7 +32,7 @@
 
 1.  Change the codes what ever you want in the files
 2.  file/files automatically changed to orange color (That means you made some changes in your file/files)
-3.  hen in command prompt type -> " git add . " -> git<space>add<space>dot and then press enter.
+3.  Then in command prompt type -> " git add . " -> git<space>add<space>dot and then press enter.
 4.  Then in command prompt type -> git commit -m "Your msg" git<space>commit<space>-m<space>"inside double quotes type your msg" then press enter.
 5.  File/Files color changed into white -> means files are updated in git.
 
@@ -58,7 +58,7 @@
 
 1. add & commit using VS code tool.
 
-- VS code -> File Explorer -> Source code -> (M-Indicates modified) (Instead of using git add .) -> point the curser on changes -> You can see "+" symbol -> files are changed to staged changes ->(Instead of using git commit -m "your msg") In the message type your msg -> and then press on Tick button.
+- VS code -> File Explorer -> Source code -> (M-Indicates modified) (Instead of using git add .) -> point the curser on changes -> You can see "+" symbol click on it-> files are changed to staged changes ->(Instead of using git commit -m "your msg") In the message tex box type your msg -> and then press on Tick button.
 
 2. Finding the commit history using VS code toll.
 
@@ -144,7 +144,7 @@
 
 ### How to create Branch in Desktop tool:
 
-Open Desktop tool -> at the top menu bar You can see "Branch button" -> Click on it -> Select "New Branch" -> Name the branch based on the appliction of your project -> click on "Create Branch"-> Your branch created (You can see it in current branch) -> Make changes in current files or create new file/files -> then commit it with msg (saved in local system)-> Then click on push origin (In this step your files are Saved in cloud)
+Open Desktop tool -> at the top menu bar You can see "Branch button" -> Click on it -> Select "New Branch" -> Name the branch based on the application/feature of your project -> click on "Create Branch"-> Your branch created (You can see it in current branch) -> Then click on "publish branch"-> Make changes in current files or create new file/files -> then commit it with msg (saved in local system)-> Then click on push origin (In this step your files are Saved in cloud)
 
 - You can see the difference by clicking on commits option in github -> Select the branch from main -> click on code button.
 - You can also see it in desktop tool by selecting the branch under current branch-> Click on History -> You can see the all commits of your project.
@@ -155,7 +155,7 @@ Open Desktop tool -> at the top menu bar You can see "Branch button" -> Click on
 
 ### How to give pull request ?
 
-- After creating a branch and push into orgin -> You can see "Create Pull Request" Under no Local changes dialogue box -> Click on it -> it will redirect to the github repository pull request page -> under "Open a pull request" dialogue box you can see the option with drop down list and arrow mark -> Here you can select your branch and You can select pull request against the branch (It may be a main or sub-branch) -> Then click on "Create Pull Request" -> Now click on project repository link -> You can see No.of Pull request made -> Click on it -> then click on "your pull request file" -> It will redirect to the pull request file page -> Here you can See the No. of commit , files changed , checks ... -> check the commits and changes -> come back and click on "Merge Pull Request" -> Then click on "Confirm merge" -> Now the requested branch merged into the particular sub-branch/main. Now you can delete the branch if you needed.
+- After creating a branch and push into orgin -> You can see "Create Pull Request" Under "No Local changes" dialogue box -> Click on it -> it will redirect to the github repository pull request page -> under "Open a pull request" dialogue box you can see the option with drop down list and arrow mark -> Here you can select your branch and You can select pull request against the branch (It may be a main or sub-branch) -> Then click on "Create Pull Request" -> Now click on project repository link -> You can see No.of Pull request made -> Click on it -> then click on "your pull request file" -> It will redirect to the pull request file page -> Here you can See the No. of commit , files changed , checks ... -> check the commits and changes -> come back and click on "Merge Pull Request" -> Then click on "Confirm merge" -> Now the requested branch merged into the particular sub-branch/main. Now you can delete the branch if needed.
 - If you want to check whether the branch merged or not means, open the project repository link -> check your files/changes merged or not.
 - now go to github desktop tool -> under current branch select "main" -> click on "fetch orgin" -> after fetching it shows pull orgin -> Then click on "Pull origin" -> Now the merged branches(Pull requested brances) are saved in local system too.
 - Now go to your VS code You can see the files/changes are merged in main project.
@@ -175,14 +175,14 @@ Open Desktop tool -> at the top menu bar You can see "Branch button" -> Click on
 ### How to solve Merge conflict ?
 
 - For eg:
-- Create branch 1 from main project made changes in the file -> commit -> push to origin -> create pull request -> Merge Pull request -> commit.
+- Create branch 1 from main project -> click on "publish branch" -> made changes in the file -> commit -> push to origin -> create pull request -> Merge Pull request -> commit.
 
-- Create branch 2 from main project made changes in the same file same line -> commit -> push to origin -> create pull request -> It shows "Can't automatically merge" -> Click on "create pull request" -> It shows "The branch has conflict that must be resolved" (and also shows the file name)
+- Create branch 2 from main project -> click on "publish branch" -> made changes in the same named file at the same line -> commit -> push to origin -> create pull request -> It shows "Can't automatically merge" -> Click on "create pull request" -> It shows "The branch has conflict that must be resolved" (and also shows the file name)
 
 - Now it can be resolved by 2 methods.
 
 1.  github
-2.  github desktop tool (Best way)
+2.  github desktop tool with VS Code (Best way)
 
 - Open desktop tool -> Select "Main" in current branch -> at the history behind changes, select which branch you want to merge (In the history)-> It shows error "Their will be .... conflicted line when merging" at the left bottom of the page -> Select "merge into admin" -> It shows pop-up menu (with msg) -> click open in VS code option -> Vs code shows the differences and also options like "Accept Current Change | Accept Incoming Change | Accept Both Changes | Compare Changes" -> Select which one you want -> and Save it (ctrl + S)
 - Then go to desktop tool -> the pop-up shows no conflicts remaining with green tick -> Now click on "Commit Merge".
@@ -197,6 +197,6 @@ Open Desktop tool -> at the top menu bar You can see "Branch button" -> Click on
 ### How to apply git ignore ?
 
 - For eg:
-- create file(eg: secret.js) -> Enter the datas -> Now create (.gitignore) file in the same folder -> Enter the files/folder (enter file name with extension eg:secret.js) You want to make avoid accessing from others -> Now the selected file color changed into grey.
+- create file(eg: secret.js) -> Enter the data's -> Now create (.gitignore) file in the same folder -> Enter the files/folder (enter file name with extension eg:secret.js) You want to make avoid accessing from others -> Now the selected file color changed into grey.
 - Go to desktop tool -> enter some msg and "Commit it" -> click on "Push to origin" .
 - If someone wants to run the program means you have to share that secret file/folder offline.
