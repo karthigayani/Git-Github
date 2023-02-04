@@ -189,3 +189,13 @@ Open Desktop tool -> at the top menu bar You can see "Branch button" -> Click on
 - Open github -> click on Pull request button -> check whether the Pull request solved or not.
 
 ### What is Git ignore ?
+
+- It is used to avoid accessing the codes/files/folder while publishing. (For eg : Password or API links etc...)
+- It is mainly used for security purpose.
+
+### How to apply git ignore ?
+
+- For eg:
+- create file(eg: secreat.js) -> Enter the datas -> Now create (.gitignore) file in the same folder -> Enter the files/folder (enter file name with extension eg:secreat.js) You want to make avoid accessing from others -> Now the selected file color changed into grey.
+- Go to desktop tool -> enter some msg and "Commit it" -> click on "Push to origin" .
+- If someone wants to run the program means you have to share that secret file/folder offline.
