@@ -143,4 +143,7 @@
 
 ### How to create Branch in Desktop tool:
 
-Open Desktop tool -> at the top menu bar You can see "Branch button" -> Click on it -> Select "New Branch" -> Name the branch based on the appliction of your project -> click on "Create Branch"-> Your branch created (You can see it in current branch) -> Make changes in current files or create new file/files -> then commit it with msg (saved in local system)-> Then click on push origin (In this step your files are Saved in cloud and also merged with main project) -> You can see the difference by clicking on commits option in github or you can see it in changes in the desktop tool.
+Open Desktop tool -> at the top menu bar You can see "Branch button" -> Click on it -> Select "New Branch" -> Name the branch based on the appliction of your project -> click on "Create Branch"-> Your branch created (You can see it in current branch) -> Make changes in current files or create new file/files -> then commit it with msg (saved in local system)-> Then click on push origin (In this step your files are Saved in cloud and also merged with main project)
+
+- You can see the difference by clicking on commits option in github -> Select the branch from main -> click on code button.
+- You can also see it in desktop tool by selecting the branch under current branch-> Click on History -> You can see the all commits of your project.
