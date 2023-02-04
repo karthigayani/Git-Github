@@ -196,6 +196,6 @@ Open Desktop tool -> at the top menu bar You can see "Branch button" -> Click on
 ### How to apply git ignore ?
 
 - For eg:
-- create file(eg: secreat.js) -> Enter the datas -> Now create (.gitignore) file in the same folder -> Enter the files/folder (enter file name with extension eg:secreat.js) You want to make avoid accessing from others -> Now the selected file color changed into grey.
+- create file(eg: secret.js) -> Enter the datas -> Now create (.gitignore) file in the same folder -> Enter the files/folder (enter file name with extension eg:secret.js) You want to make avoid accessing from others -> Now the selected file color changed into grey.
 - Go to desktop tool -> enter some msg and "Commit it" -> click on "Push to origin" .
 - If someone wants to run the program means you have to share that secret file/folder offline.
