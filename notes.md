@@ -143,7 +143,18 @@
 
 ### How to create Branch in Desktop tool:
 
-Open Desktop tool -> at the top menu bar You can see "Branch button" -> Click on it -> Select "New Branch" -> Name the branch based on the appliction of your project -> click on "Create Branch"-> Your branch created (You can see it in current branch) -> Make changes in current files or create new file/files -> then commit it with msg (saved in local system)-> Then click on push origin (In this step your files are Saved in cloud and also merged with main project)
+Open Desktop tool -> at the top menu bar You can see "Branch button" -> Click on it -> Select "New Branch" -> Name the branch based on the appliction of your project -> click on "Create Branch"-> Your branch created (You can see it in current branch) -> Make changes in current files or create new file/files -> then commit it with msg (saved in local system)-> Then click on push origin (In this step your files are Saved in cloud)
 
 - You can see the difference by clicking on commits option in github -> Select the branch from main -> click on code button.
 - You can also see it in desktop tool by selecting the branch under current branch-> Click on History -> You can see the all commits of your project.
+
+### 9. What is Pull Request ?
+
+- Requesting your branch project merge with main project.
+
+### How to give pull request ?
+
+- After creating a branch and push into orgin -> You can see "Create Pull Request" Under no Local changes dialogue box -> Click on it -> it will redirect to the github repository pull request page -> under "Open a pull request" dialogue box you can see the option with drop down list and arrow mark -> Here you can select your branch and You can select pull request against the branch (It may be a main or sub-branch) -> Then click on "Create Pull Request" -> Now click on project repository link -> You can see No.of Pull request made -> Click on it -> then click on "your pull request file" -> It will redirect to the pull request file page -> Here you can See the No. of commit , files changed , checks ... -> check the commits and changes -> come back and click on "Merge Pull Request" -> Then click on "Confirm merge" -> Now the requested branch merged into the particular sub-branch/main. Now you can delete the branch if you needed.
+- If you want to check whether the branch merged or not means, open the project repository link -> check your files/changes merged or not.
+- now go to github desktop tool -> under current branch select "main" -> click on "fetch orgin" -> after fetching it shows pull orgin -> Then click on "Pull origin" -> Now the merged branches(Pull requested brances) are saved in local system too.
+- Now go to your VS code You can see the files/changes are merged in main project.
