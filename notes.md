@@ -104,3 +104,41 @@
 - In this step Your commits are saved as version in your local system.
 - Once Your commits are completed You can see push to origin option behind current branch. Click on it. Now your files are updated in github.
 - Now the push to orgin option changed into fetch orgin.
+
+### 7. What is Branch in Git Version management ?
+
+- When you create a repository "main branch" will automatically created. You can commit "n" no.of times. This is only Good for (single user) when you only doing the whole project.
+- But this way is not good for (multiple user) / group project.
+- Why because you cann't identify the commits properly.
+- So to avoid this issue get the copy of main branch and named as "for eg: feature 1(eg:Home) , feature 2(eg:About), feature 3(eg:contact)... make changes and then merge it one by one.
+- This features are branch.
+
+1.  merge feature 1 with main branch run it/ check it out the output ok or not.
+2.  Then merge feature 2 with (main branch & feature 1) run it/ check it out the output ok or not.
+3.  Then merge feature 3 with (main branch & feature 1 & feature 2) run it/ check it out the output ok or not.
+
+### Single User
+
+- Main -> Feature -> Main
+
+### Multiple User
+
+- Main ->
+
+1.  Feature 1 -> (Feature 1 Merge with Main) -> Testing taking place
+2.  Feature 2 -> (Feature 2 Merge with Main) -> Testing taking place
+3.  Feature 3 -> (Feature 3 Merge with Main) -> Testing taking place
+
+- Main (Final Product)
+
+### In Companies
+
+- Main -> Stage (Client/Senior) -> Dev (Developer) ->
+- Feature.1 -> (Feature.1 Merge with Dev) -> Testing taking place
+- Feature.2 -> (Feature.2 Merge with Dev) -> Testing taking place
+- Feature.3 -> (Feature.3 Merge with Dev) -> Testing taking place
+- Feature.4 -> (Feature.4 Merge with Dev) -> Testing taking place
+- Feature.5 -> (Feature.5 Merge with Dev) -> Testing taking place
+- (Final Dev) -> (Final Dev Merge with Stage) Stage -> Testing taking place -> (Final Stage Merge with Main)-> Testing taking place -> Main (Final Product)
+
+### How to create Branch in Desktop tool:
